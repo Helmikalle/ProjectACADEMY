@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JStest</title>
+</head>
+<body>
+<div id="kentta"></div>
+<div id="toinen"></div>
+<div id="pvm"></div>
+<div id="pvm2"></div>
+<div id="aika"></div>
+<script src="hello.js"></script>
+<script>
+    //alert("huomio");
+    var elementti = document.getElementById("kentta");
+    elementti.innerHTML = "Terve";
+    console.log("Terve konsoli");
+    console.dir(elementtih);
+    var ulos = document.getElementById("pvm")
+    ulos.innerHTML = new Date();
+    var ulos2 = document.getElementById("pvm2")
+    var d = new Date();
+    var n = d.toLocaleDateString("fi-FI");
+    ulos2.innerHTML = n;
+    var ulos3 = document.getElementById("aika");
+    var a = d.getHours();
+    var b = d.getMinutes();
+    var c = d.getSeconds();
+    ulos3.innerHTML = "<p>"+ n + " - " + a +":"+ b+"." + c;
+
+</script>
+
+
+</body>
+</html>

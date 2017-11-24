@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css?family=Nosifer");
+
+body {
+    background-image: url("https://farm9.staticflickr.com/8211/29586037485_44f86ce1db_o.jpg");
+    background-size: 100%;
+    background-attachment: fixed;
+
+}
+
+#palkki1, #palkki2 {
+    width: 40%;
+    float: right;
+    margin-right: 100px;
+}
+
+#puhdista {
+    clear: both;
+}
+
+#para1 {
+    font-family: Nosifer, Arial, sans-serif;
+    float: left;
+}
+
+#para2 {
+    font-style: italic;
+    font-weight: bold;
+}
+
+#para2:first-letter {
+    font-size: 2em;
+}
+
+#italic {
+    font-style: italic;
+}
+
+h1 {
+    text-align: center;
+    background-color: rgba(224, 242, 241, 0.6);
+    margin-top: 60px;
+    font-family: Verdana, Arial, sans-serif;
+    padding: 50px;
+
+}
+
+h2 {
+    background-color: rgba(224, 242, 241, 0.6);
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+}
+
+p {
+    background-color: rgba(224, 242, 241, 0.6);
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: justify;
+    font-size: 30px;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-bottom: 8px;
+}
+
+nav a {
+
+    display: inline-block;
+    background-color: #dddddd;
+    text-decoration: none;
+    font-size: 20px;
+
+
+
+}
+
+nav a:hover {
+    background-color: #555;
+    color: white;
+
+}
+
+nav {
+    position: fixed;
+    top: -10px;
+    padding-top: 20px;
+    background-color: #dddddd;
+    width: 100%;
+    left: 0;
+    text-align: center;
+
+}

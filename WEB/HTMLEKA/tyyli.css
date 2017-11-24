@@ -1,0 +1,67 @@
+body {
+
+    background-color: bisque;
+    margin-top: 100px;
+}
+
+h1, h2 {
+    color: darkblue;
+    text-align: center;
+    background-color: aquamarine;
+}
+
+p {
+    background-color: bisque;
+    font-size: 35px;
+
+}
+
+#dogee {
+    height: 150px;
+    position: fixed;
+    bottom: 600px;
+    right: 0px;
+    border-radius: 50%;
+
+}
+
+textarea {
+    width: 30%;
+    height: 200px;
+}
+
+#sposti {
+    width: 15%;
+}
+
+#doge {
+    position: fixed;
+    bottom: 40%;
+    right: 40%;
+    border-radius: 50%;
+
+}
+
+table {
+    border-color: blueviolet;
+    outline-style: solid;
+}
+
+figure {
+    outline-style: solid;
+    margin: 20px;
+    width: 140px;
+    padding: 10px;
+
+}
+
+#derp {
+    position: fixed;
+    height: 300px;
+    bottom: 50%;
+    right: 50%;
+}
+
+#T3 {
+    color: darkolivegreen;
+}
