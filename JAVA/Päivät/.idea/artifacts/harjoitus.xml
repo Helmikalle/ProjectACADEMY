@@ -1,0 +1,11 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="harjoitus">
+    <output-path>C:/harjoitusta</output-path>
+    <root id="archive" name="harjoitus.jar">
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="C:/harjoitusta/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="module-output" name="Päivät" />
+    </root>
+  </artifact>
+</component>
