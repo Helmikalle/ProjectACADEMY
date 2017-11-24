@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Image Gallery</title>
+    <style>
+        syote {
+
+        }
+
+        img {
+            background-color: grey;
+            width: 20%;
+        }
+
+        div.item {
+            text-align: center;
+            margin-left: 12%;
+            padding: 0;
+
+
+        }
+
+        .caption {
+            display: block;
+        }
+
+        #etusivu {
+            position: fixed;
+            bottom: 50px;
+            left: 20px;
+        }
+
+        figure {
+            float: left;
+            width: 40%;
+            padding: 0;
+            background-color: grey;
+
+        }
+
+        #puhdista {
+            clear: both;
+        }
+    </style>
+</head>
+<body>
+
+<h1 style="text-align: center">Kuvat</h1>
+<div class="item">
+    <figure>
+        <a href="https://previews.123rf.com/images/natursports/natursports1307/natursports130700241/24706735-Kazakh-team-performs-at-Synchronized-swimming-Free-Routine-Final-of-15th-FINA-World-Championships-on-Stock-Photo.jpg">
+            <img src="https://previews.123rf.com/images/natursports/natursports1307/natursports130700241/24706735-Kazakh-team-performs-at-Synchronized-swimming-Free-Routine-Final-of-15th-FINA-World-Championships-on-Stock-Photo.jpg"
+                 alt="Kuva 1"></a>
+        <figcaption class="caption">Kazakhstanin joukkue suorittamassa  vapaa ohjelmaansa.
+        </figcaption>
+    </figure>
+    <figure>
+        <a href="https://i.pinimg.com/736x/b2/93/ae/b293ae7126a770c870bf546e1613012b--synchronized-swimming-water-sports.jpg">
+            <img src="https://i.pinimg.com/736x/b2/93/ae/b293ae7126a770c870bf546e1613012b--synchronized-swimming-water-sports.jpg"
+                 alt="kuva 2"></a>
+        <figcaption class="caption">Ranskan naisten joukkue edustamassa Olympialaisissa 2012.</figcaption>
+    </figure>
+    <figure>
+        <a href="http://cdn.newsapi.com.au/image/v1/70c368d08086adece87fb33d476c933b?width=1024"><img
+                src="http://cdn.newsapi.com.au/image/v1/70c368d08086adece87fb33d476c933b?width=1024" alt="kuva3"></a>
+        <figcaption class="caption">Kanadan sekamaajoukkueen lopetusmuodostelma vuodelta 2016. (CDN 2016)</figcaption>
+    </figure>
+    <figure>
+        <a href="http://media.syracuse.com/sports_multiblog/photo/russia-swimming-worlds-c4a643718ecc3eed.jpg"><img
+                src="http://media.syracuse.com/sports_multiblog/photo/russia-swimming-worlds-c4a643718ecc3eed.jpg"
+                alt="kuva 4"></a>
+        <figcaption class="caption">Taitouimari Bill May ja Christina Jones</figcaption>
+    </figure>
+</div>
+<br id="puhdista">
+<br>
+<br>Lisää oma kuvasi kuvagalleriaan:
+<input id="syote" type="file" name="tiedosto">
+<br>
+
+
+</body>
+</html>

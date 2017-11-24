@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="tyyli.css">
+    <title>Tarjoukset</title>
+
+</head>
+<body>
+<h1>Lomake 1</h1>
+<hr>
+<h2>Tarjous</h2>
+<form action="http://localhost:3000/formhandler" method="post">
+    Asiakastyyppi</br>
+    <input type="radio" name="tyyppi" value="yritys" checked/>Yritys</br>
+    <input type="radio" name="tyyppi" value="yksityinen"/>Yksityinen</br>
+    <input type="text" name="etunimi"/>Etunimi</br>
+    <input type="text" name="sukunimi"/>Sukunimi</br>
+    <input id="sposti" type="email" name="sposti" maxlength="20">Sähköposti</br>
+    <br>
+    <select name="Kiireellisyys">
+        <option value="A" name="TOSI KIIRE">NYT ON KIIRE</option>
+        <option value="B" name="Ehkä huomenna">Jos nyt kohta</option>
+        <option value="C" name="Sitten kun ei ole muuta hommaa">Ehkä ens viikolla</option>
+    </select>
+    <br>
+    <br>
+    Kerro mitä tarvitset</br>
+    <textarea></textarea></br>
+    <button type="submit">Lähetä</button>
+    <button type="reset">Resetoi</button>
+
+
+</form>
+<img id="doge"
+     src="https://vignette2.wikia.nocookie.net/animaljam/images/9/9b/Wow_such_picture_very_microsoft_such_image_wow.png/revision/latest?cb=20140402011938"
+     alt="DOGE">
+</body>
+<hr>
+<footer>
+    blalblbalabablab</br>
+    sdjapjdspjaasdpi</br>
+    <br>
+</footer>
+</html>

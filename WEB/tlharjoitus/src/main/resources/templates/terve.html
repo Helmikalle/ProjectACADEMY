@@ -1,0 +1,58 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Terve Thymeleaf</title>
+    <meta charset="UTF-8" />
+    <!--Tyylitiedosto resources/static/css -hakemistoon, löytyy automaagisesti-->
+    <!--<link rel="stylesheet" href="tyyli.css" th:href="@{/css/tyyli.css}"/>-->
+</head>
+<body>
+<div th:fragment="copy">Terve, terve</div>
+<p th:text="'Terve, ' + ${nimi} + '!'" />
+
+<a href="toinensivu.html">toinensivu</a>
+    <!--<script>-->
+    <!--function toUTF16(codePoint) {-->
+        <!--var TEN_BITS = parseInt('1111111111', 2);-->
+        <!--function u(codeUnit) {-->
+            <!--return '\\u'+codeUnit.toString(16).toUpperCase();-->
+        <!--}-->
+
+        <!--if (codePoint <= 0xFFFF) {-->
+            <!--return u(codePoint);-->
+        <!--}-->
+        <!--codePoint -= 0x10000;-->
+
+        <!--// Shift right to get to most significant 10 bits-->
+        <!--var leadSurrogate = 0xD800 + (codePoint >> 10);-->
+
+        <!--// Mask to get least significant 10 bits-->
+        <!--var tailSurrogate = 0xDC00 + (codePoint & TEN_BITS);-->
+
+        <!--return u(leadSurrogate) + u(tailSurrogate);-->
+    <!--}-->
+    <!--console.log(toUTF16(128353));-->
+    <!--console.log(toUTF16(127923));-->
+        <!--console.log(toUTF16(128169));-->
+            <!--console.log(toUTF16(127968));-->
+            <!--console.log(toUTF16(127767));-->
+            <!--console.log(toUTF16(128150));-->
+            <!--console.log(toUTF16(127820));-->
+            <!--console.log(toUTF16(128150));-->
+    <!--console.log(toUTF16(127767));-->
+    <!--console.log(toUTF16(128150));-->
+    <!--console.log(toUTF16(128342));-->
+    <!--console.log(toUTF16(127772));-->
+    <!--console.log(toUTF16(128150));-->
+    <!--console.log(toUTF16(127923));-->
+    <!--console.log(toUTF16(128353));-->
+    <!--console.log(toUTF16(128143));-->
+    <!--console.log(toUTF16(128150));-->
+    <!--console.log(toUTF16(127923));-->
+    <!--console.log(toUTF16(127755));-->
+    <!--console.log(toUTF16(128169));-->
+
+<!--</script>-->
+
+</body>
+</html>

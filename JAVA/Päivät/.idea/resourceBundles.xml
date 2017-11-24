@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ResourceBundleManager">
+    <file url="file://$PROJECT_DIR$/src/fi/academy/loc/Tekstit.properties" />
+    <file url="file://$PROJECT_DIR$/src/fi/academy/loc/Tekstit_fi_FI.properties" />
+    <file url="file://$PROJECT_DIR$/src/fi/academy/loc/Tekstit_sv_SE.properties" />
+    <custom-resource-bundle>
+      <file value="file://$PROJECT_DIR$/src/fi/academy/loc/.Tekstit_en.properties" />
+      <file value="file://$PROJECT_DIR$/src/fi/academy/loc/Tekstit.properties" />
+      <file value="file://$PROJECT_DIR$/src/fi/academy/loc/Tekstit_fi_FI.properties" />
+      <file value="file://$PROJECT_DIR$/src/fi/academy/loc/Tekstit_sv_SE.properties" />
+      <base-name>Tekstit</base-name>
+    </custom-resource-bundle>
+  </component>
+</project>

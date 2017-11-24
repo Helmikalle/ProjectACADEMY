@@ -1,0 +1,14 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Terve Thymeleaf</title>
+    <meta charset="UTF-8" />
+    <!--Tyylitiedosto resources/static/css -hakemistoon, löytyy automaagisesti-->
+    <!--<link rel="stylesheet" href="tyyli.css" th:href="@{/css/tyyli.css}"/>-->
+</head>
+<body>
+<h1>Terve, terve</h1>
+<div th:include="linkit :: copy"></div>
+<p th:text="'id: ' + ${numero}" />
+</body>
+</html>

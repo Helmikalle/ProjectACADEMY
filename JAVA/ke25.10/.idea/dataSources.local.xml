@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="world@localhost" uuid="75386500-b8d2-4ef3-ad92-efe00167eeca">
+      <database-info product="MySQL" version="5.7.20-log" jdbc-version="4.0" driver-name="MySQL Connector Java" driver-version="mysql-connector-java-5.1.40 ( Revision: 402933ef52cad9aa82624e80acbea46e3a701ce6 )">
+        <extra-name-characters>#@</extra-name-characters>
+        <identifier-quote-string>`</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="lower" quoted-identifiers="lower" />
+      <secret-storage>master_key</secret-storage>
+      <user-name>root</user-name>
+      <introspection-schemas>*:kurssi,world</introspection-schemas>
+      <resolve-scope>kurssi:|world:</resolve-scope>
+      <unqualified-resolve-schemas>kurssi:|world:</unqualified-resolve-schemas>
+    </data-source>
+    <data-source name="jdbcharjoitus@localhost" uuid="f52f2258-4856-4d73-a441-7ae10fdd2673">
+      <database-info product="MySQL" version="5.7.20-log" jdbc-version="4.0" driver-name="MySQL Connector Java" driver-version="mysql-connector-java-5.1.40 ( Revision: 402933ef52cad9aa82624e80acbea46e3a701ce6 )">
+        <extra-name-characters>#@</extra-name-characters>
+        <identifier-quote-string>`</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="lower" quoted-identifiers="lower" />
+      <secret-storage>master_key</secret-storage>
+      <user-name>root</user-name>
+      <introspection-schemas>*:jdbcharjoitus</introspection-schemas>
+      <resolve-scope>jdbcharjoitus:</resolve-scope>
+      <unqualified-resolve-schemas>jdbcharjoitus:</unqualified-resolve-schemas>
+    </data-source>
+  </component>
+</project>
