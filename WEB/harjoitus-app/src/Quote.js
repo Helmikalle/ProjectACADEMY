@@ -1,18 +1,18 @@
-import React, { Component } from 'react';
-
+import React, {Component} from 'react';
 
 
 class Quote extends Component {
-    render(){
-        return(
+    render() {
+        return (
             <div>
                 <li>
-                <p>{this.props.sanonta.nimi}</p>
-                <p>{this.props.sanonta.virsi}</p>
+                    <p><i>"{this.props.sanonta.virsi}"</i></p>
+                    <h6>-{this.props.sanonta.nimi}</h6>
                 </li>
             </div>
 
         );
     }
 }
+
 export default Quote;
