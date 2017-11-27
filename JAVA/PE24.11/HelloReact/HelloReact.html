@@ -6,13 +6,53 @@
     <script src="https://unpkg.com/react@15.3.2/dist/react.js"></script>
     <script src="https://unpkg.com/react-dom@15.3.2/dist/react-dom.js"></script>
     <script src="https://unpkg.com/babel-standalone@6.15.0/babel.min.js"></script>
+    <style>
+        table {
+            border-bottom: groove;
+            border-top: hidden;
+            border-left: hidden;
+            border-right: hidden;
+        }
+
+        td {
+            column-width: 300px;
+            text-align: center;
+        }
+
+    </style>
 </head>
 <body>
 <div id="content"></div>
+<div id="taulutesti"></div>
+<div id="tauluntoinentesti"></div>
+<div id="aforismi"></div>
 <script type="text/babel">
+    function MyTaulu(props) {
+        return (<div>
+                    <table>
+                        <tr>
+                            <th>Nimi</th>
+                            <th>Sposti</th>
+                            <th>Ikä</th>
+                        </tr>
+                        <tr>
+                            <td>{props.hlo.nimi}</td>
+                            <td>{props.hlo.sposti}</td>
+                            <td>{props.hlo.ika}</td>
+                        </tr>
+                    </table>
+                </div>
+
+        );
+    }
+
+    var sepi = {nimi: "Seppo Hovi", sposti: "netti.fi", ika: "70"}
+    ReactDOM.render(<MyTaulu hlo={sepi}/>,
+        document.getElementById('taulutesti'));
+
     class MyComponent extends React.Component {
-        render (){
-            return(
+        render() {
+            return (
                     <div>
                         Hello, once again! This is from <b>Babel</b>-
                         translated JSX element.
@@ -20,8 +60,33 @@
         }
     };
     ReactDOM.render(<MyComponent/>,
-        document.getElementById("content"))
-
+        document.getElementById("content"));
+    const MyToinenTaulu = (props) => (<div>
+        <table>
+            <tr>
+                <th>Nimi</th>
+                <th>Sposti</th>
+                <th>Ikä</th>
+            </tr>
+            <tr>
+                <td>{props.nimi}</td>
+                <td>{props.sposti}</td>
+                <td>{props.ika}</td>
+            </tr>
+        </table>
+    </div>)
+    ReactDOM.render(<MyToinenTaulu nimi="Seppo Kivihovi" sposti="netti.com" ika="79"/>,
+        document.getElementById('tauluntoinentesti'));
+    const Afoja = (props) => (<div>
+        <p>{props.lause.miete[0]}</p>
+        <p>{props.lause.sanoja[0]}</p>
+    </div>)
+    var mietetaulu = [{
+        miete: 'Se joka ei ole koskaan epäonnistunut, ei ole koskaan yrittänyt mitään uutta.',
+        sanoja: 'Albert Einstein'
+    }];
+    ReactDOM.render(<Afoja lause={mietetaulu}/>,
+    document.getElementById("aforismi"));
 </script>
 
 
