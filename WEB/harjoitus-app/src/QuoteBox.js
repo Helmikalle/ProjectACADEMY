@@ -1,17 +1,18 @@
 import React, { Component } from 'react';
 import QuoteList from './QuoteList';
 
-var sanonnat = [{id:1, nimi:'jonne', virsi:'blabla'},
-                {id:2, nimi:'jannu', virsi:'jonnet ei tiedä'}]
+
 
 class QuoteBox extends Component {
 render(){
     return(<div>
             <h1>Sanontoja</h1>
-            <QuoteList sanonnat={data}/>
+            <QuoteList sanonnat={sanonnat}/>
         </div>
 
     );
 }
 }
+var sanonnat = [{nimi:'jonne', virsi:'blabla'},
+    {nimi:'jannu', virsi:'jonnet ei tiedä'}]
 export default QuoteBox;
