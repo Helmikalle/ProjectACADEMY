@@ -78,14 +78,13 @@
     ReactDOM.render(<MyToinenTaulu nimi="Seppo Kivihovi" sposti="netti.com" ika="79"/>,
         document.getElementById('tauluntoinentesti'));
     const Afoja = (props) => (<div>
-        <p>{props.lause.miete[0]}</p>
-        <p>{props.lause.sanoja[0]}</p>
+        <p>{props.mietetaulu.miete[0]}</p>
+        <p>{props.mietetaulu.sanoja[0]}</p>
     </div>)
     var mietetaulu = [{
         miete: 'Se joka ei ole koskaan epäonnistunut, ei ole koskaan yrittänyt mitään uutta.',
-        sanoja: 'Albert Einstein'
-    }];
-    ReactDOM.render(<Afoja lause={mietetaulu}/>,
+        sanoja: 'Albert Einstein'},{miete:'blablabla', sanoja:'joku'}]
+    ReactDOM.render(<Afoja mietetaulu={mietetaulu}/>,
     document.getElementById("aforismi"));
 </script>
 
