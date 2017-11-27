@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0fc358e4-e005-4ab6-a5da-f3a6c4f199cb" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lomake-app/src/MyComponent.js" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../JAVA/PE24.11/HelloReact/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../../JAVA/PE24.11/HelloReact/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../lomake-app/src/App.js" afterPath="$PROJECT_DIR$/../lomake-app/src/App.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../lomake-app/src/Lomake.js" afterPath="$PROJECT_DIR$/../lomake-app/src/Lomake.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../JAVA/PE24.11/HelloReact/HelloReact.html" afterPath="$PROJECT_DIR$/../../JAVA/PE24.11/HelloReact/HelloReact.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
