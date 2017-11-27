@@ -1,16 +1,24 @@
 import React, {Component} from 'react';
-import MyComponent from './MyComponent';
 
 class Lomake extends Component {
-    render() {
+    state = {
+        name: '',
+        email: ''
+    };
 
+    onSubmit = (e) => {
+        e.preventDefault();
+        console.log(this.state)
+    };
+
+    render() {
         return (
             <form>
                 <input type="text" placeholder="Name"
-                       value={this.state.name} onChange={this.handleNameChange}/>
+                       value={this.state.name} onChange={e => this.setState({name: e.target.value})}/>
                 <input type="text" placeholder="email"
-                       value={this.state.email} onChange={this.handleEmailChange}/>
-                <input type="submit" value="Create" onClick={this.handleCreateClick}/>
+                       value={this.state.email} onChange={e => this.setState({email: e.target.value})}/>
+                <input type="submit" onClick={e => this.onSubmit(e)}/>
             </form>
         );
     }
