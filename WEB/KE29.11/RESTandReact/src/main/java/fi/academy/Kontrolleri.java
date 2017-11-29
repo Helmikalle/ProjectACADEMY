@@ -25,5 +25,11 @@ public class Kontrolleri {
     public Iterable<Sanonta> getAllUsers() {
         return sanontaRepository.findAll();
     }
+    @RequestMapping("/haeID")
+    public Iterable<Sanonta> getById(@RequestParam(name = "id") Integer id){
+        if(id==null)
+            return sanontaRepository.findAll();
+        return sanontaRepository.haeSanontaIdlla(id);
+    }
 
 }
