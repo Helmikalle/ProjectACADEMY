@@ -2,12 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a6698f5c-e66c-4b27-9ab2-0bf0ede4821f" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../../WEB/harjoitus-app/src/QuoteForm.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../WEB/harjoitus-app/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../../../WEB/harjoitus-app/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../WEB/harjoitus-app/src/App.js" afterPath="$PROJECT_DIR$/../../../WEB/harjoitus-app/src/App.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../WEB/harjoitus-app/src/App.css" afterPath="$PROJECT_DIR$/../../../WEB/harjoitus-app/src/App.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../WEB/harjoitus-app/src/Quote.js" afterPath="$PROJECT_DIR$/../../../WEB/harjoitus-app/src/Quote.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../WEB/harjoitus-app/src/QuoteBox.js" afterPath="$PROJECT_DIR$/../../../WEB/harjoitus-app/src/QuoteBox.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../WEB/harjoitus-app/src/QuoteList.js" afterPath="$PROJECT_DIR$/../../../WEB/harjoitus-app/src/QuoteList.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../WEB/lomake-app/src/App.js" afterPath="$PROJECT_DIR$/../../../WEB/lomake-app/src/App.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../WEB/lomake-app/src/Lomake.js" afterPath="$PROJECT_DIR$/../../../WEB/lomake-app/src/Lomake.js" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -136,7 +139,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../WEB/lomake-app" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../valmiit koodit(ei omat)/sanonnat-formi" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -242,7 +245,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1511767581080</updated>
-      <workItem from="1511767584484" duration="10568000" />
+      <workItem from="1511767584484" duration="11852000" />
     </task>
     <task id="LOCAL-00001" summary="Eka react testi">
       <created>1511767852806</created>
@@ -283,10 +286,11 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10568000" />
+    <option name="totallyTimeSpent" value="11852000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
