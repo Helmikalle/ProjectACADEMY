@@ -1,17 +1,17 @@
 import React, { Component } from 'react';
-// import logo from './logo.svg';
 import './App.css';
-import Lomake from './Lomake';
+import Lomake from "./Lomake";
+import LomakeTiedot from "./LomakeTiedot";
 
 class App extends Component {
 
-    lomakeValmis = (hlo) => {
-        this.setState();
-    };
+    lomakeValmis = (data) => {this.setState(data);}
+
   render() {
     return (
       <div className="App">
-          <Lomake kutsuttava={this.lomakeValmis}/>
+          <Lomake callback={this.lomakeValmis}/>
+          {this.state?<LomakeTiedot hlo={this.state}/>:<LomakeTiedot/>}
 
       </div>
     );
