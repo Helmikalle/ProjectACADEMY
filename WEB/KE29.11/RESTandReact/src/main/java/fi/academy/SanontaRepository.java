@@ -10,4 +10,5 @@ public interface SanontaRepository extends CrudRepository <Sanonta,Integer> {
 
     @Query("SELECT u FROM Sanonta u WHERE u.id =:id")
     List<Sanonta> haeSanontaIdlla(@Param("id") Integer id);
+   
 }
