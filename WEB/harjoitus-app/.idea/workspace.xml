@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0fc358e4-e005-4ab6-a5da-f3a6c4f199cb" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../KE29.11/router-appi/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../KE29.11/router-appi/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../KE29.11/router-appi/.idea/router-appi.iml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/serviceclient.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../KE29.11/RESTandReact/src/main/java/fi/academy/SanontaRepository.java" afterPath="$PROJECT_DIR$/../KE29.11/RESTandReact/src/main/java/fi/academy/SanontaRepository.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
@@ -307,7 +310,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1511781540984</updated>
-      <workItem from="1511781542302" duration="46065000" />
+      <workItem from="1511781542302" duration="46276000" />
     </task>
     <task id="LOCAL-00001" summary="uutta react app projectia">
       <created>1511781822674</created>
@@ -355,7 +358,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46065000" />
+    <option name="totallyTimeSpent" value="46276000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
