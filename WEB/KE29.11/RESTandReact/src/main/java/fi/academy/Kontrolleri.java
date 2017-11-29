@@ -12,14 +12,18 @@ public class Kontrolleri {
     @Autowired
     SanontaRepository sanontaRepository;
 
-    @GetMapping ("/quotes")
-    public String addNewQuote (@RequestParam String name
+    @GetMapping ("/add")
+    public String addNewQuote (@RequestParam String nimi
             , @RequestParam String virsi) {
         Sanonta n = new Sanonta();
-        n.setNimi(name);
+        n.setNimi(nimi);
         n.setVirsi(virsi);
         sanontaRepository.save(n);
         return "Saved";
+    }
+    @GetMapping("/all")
+    public Iterable<Sanonta> getAllUsers() {
+        return sanontaRepository.findAll();
     }
 
 }

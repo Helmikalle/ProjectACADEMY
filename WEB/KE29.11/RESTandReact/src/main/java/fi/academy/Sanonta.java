@@ -1,11 +1,14 @@
 package fi.academy;
 
 import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
 import javax.persistence.Id;
 
 @Entity
 public class Sanonta {
     @Id
+    @GeneratedValue(strategy= GenerationType.AUTO)
     private int id;
     private String nimi;
     private String virsi;

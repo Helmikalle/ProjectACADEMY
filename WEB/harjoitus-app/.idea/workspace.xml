@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0fc358e4-e005-4ab6-a5da-f3a6c4f199cb" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../KE29.11/RESTandReact/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../KE29.11/RESTandReact/src/main/java/fi/academy/Application.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../KE29.11/RESTandReact/src/main/java/fi/academy/Kontrolleri.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../KE29.11/RESTandReact/src/main/java/fi/academy/Sanonta.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../KE29.11/RESTandReact/src/main/java/fi/academy/SanontaRepository.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../KE29.11/RESTandReact/src/main/java/fi/academy/Kontrolleri.java" afterPath="$PROJECT_DIR$/../KE29.11/RESTandReact/src/main/java/fi/academy/Kontrolleri.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../KE29.11/RESTandReact/src/main/java/fi/academy/Sanonta.java" afterPath="$PROJECT_DIR$/../KE29.11/RESTandReact/src/main/java/fi/academy/Sanonta.java" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
