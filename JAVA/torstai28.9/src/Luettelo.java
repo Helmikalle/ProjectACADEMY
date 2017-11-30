@@ -1,17 +1,22 @@
-import java.util.*;
-import java.util.Iterator;
+import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 class Luettelo {
-    private List<String> lista;
-    /**
-     * Luo listan ja alustaa sen. Listan alustuksessa
-     * käytetään <code>ListaHarjoitus2</code>-luokan
-     * <code>nimet</code> muuttujaa.
-     */
+    private List<Henkilo> lista;
+
     public Luettelo() {
-        this.lista = new ArrayList<>();
-        lista.addAll(Arrays.asList(ListaHarjoitus2.nimet));//näin mielummin seems easier :P
+
+//        lista.addAll(Arrays.asList(ListaHarjoitus2.nimet));//näin mielummin seems easier :P
+        Henkilo[] hlot = {
+                new Henkilo("John", "Doe", 21),
+                new Henkilo("Jane", "Doe", 28),
+                new Henkilo("Steven", "Tyler", 55),
+                new Henkilo("Matt", "Mulligan", 21),
+                new Henkilo("James", "Gosling", 55)};
+
+        // Lisää nimet listaan
+        lista = new ArrayList<>(Arrays.asList(hlot));
 
     }
 
@@ -23,11 +28,9 @@ class Luettelo {
      * sen jälkeen kaikki listan nimet yksi kerrallaan.
      */
     public void tulostaKaikki() {
-        int lkm=lista.size();
-        System.out.println(lkm);
-
-        for (String nimi:lista) {
-          System.out.println(nimi);
+        System.out.println("Nimiä listassa: " + lista.size());
+        for (Henkilo hlo : lista) {
+            System.out.println(" - " + hlo);
         }
     }
     /**
@@ -45,10 +48,10 @@ class Luettelo {
     public boolean onkoNimea(String nimi) {
         return lista.contains(nimi);
     }
-    public List<String> getLista() {
+    public List<Henkilo> getLista() {
         return lista;
     }
-    public void setLista(List<String> lista) {
+    public void setLista(List<Henkilo> lista) {
         this.lista = lista;
     }
 }

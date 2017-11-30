@@ -2,10 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0aaff4ab-ef70-4b9c-9a24-e2592c919670" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../../JAVA/torstai28.9/.idea/vcs.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../JAVA/torstai28.9/out/production/torstai28.9/ListaHarjoitus3Main.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../JAVA/torstai28.9/out/production/torstai28.9/Luettelo2.class" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../JAVA/Tiedostonlukija/out/production/Tiedostonlukija/Kirjoituskone.class" afterPath="$PROJECT_DIR$/../../../JAVA/Tiedostonlukija/out/production/Tiedostonlukija/Kirjoituskone.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../JAVA/torstai28.9/out/production/torstai28.9/Henkilo.class" afterPath="$PROJECT_DIR$/../../../JAVA/torstai28.9/out/production/torstai28.9/Henkilo.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../JAVA/torstai28.9/out/production/torstai28.9/ListaHarjoitus1.class" afterPath="$PROJECT_DIR$/../../../JAVA/torstai28.9/out/production/torstai28.9/ListaHarjoitus1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../JAVA/torstai28.9/out/production/torstai28.9/Luettelo.class" afterPath="$PROJECT_DIR$/../../../JAVA/torstai28.9/out/production/torstai28.9/Luettelo.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../JAVA/Tiedostonlukija/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../../../JAVA/Tiedostonlukija/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../JAVA/Tiedostonlukija/moi.txt" afterPath="$PROJECT_DIR$/../../../JAVA/Tiedostonlukija/moi.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../JAVA/Tiedostonlukija/src/Sanalaskuri.java" afterPath="$PROJECT_DIR$/../../../JAVA/Tiedostonlukija/src/Sanalaskuri.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../JAVA/torstai28.9/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../../../JAVA/torstai28.9/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../JAVA/torstai28.9/src/ListaHarjoitus1.java" afterPath="$PROJECT_DIR$/../../../JAVA/torstai28.9/src/ListaHarjoitus1.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../JAVA/torstai28.9/src/ListaHarjoitus3.java" afterPath="$PROJECT_DIR$/../../../JAVA/torstai28.9/src/ListaHarjoitus3.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../JAVA/torstai28.9/src/Luettelo.java" afterPath="$PROJECT_DIR$/../../../JAVA/torstai28.9/src/Luettelo.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../harjoitus-app/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../../harjoitus-app/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
@@ -55,7 +64,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Sanonta.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Sanonta.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/fi/academy/Sanonta.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="147">
@@ -79,10 +88,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Kontrolleri.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Kontrolleri.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/fi/academy/Kontrolleri.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="188">
+            <state relative-caret-position="-115">
               <caret line="23" column="30" lean-forward="false" selection-start-line="23" selection-start-column="30" selection-end-line="23" selection-end-column="30" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -154,10 +163,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-9" />
-    <option name="y" value="-9" />
+    <option name="x" value="-8" />
     <option name="width" value="1932" />
-    <option name="height" value="1048" />
+    <option name="height" value="1038" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -357,7 +365,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1511945283266</updated>
-      <workItem from="1511945287442" duration="14695000" />
+      <workItem from="1511945287442" duration="15298000" />
     </task>
     <task id="LOCAL-00001" summary="REST and React nro1">
       <created>1511945369502</created>
@@ -398,10 +406,11 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14695000" />
+    <option name="totallyTimeSpent" value="15298000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -452,45 +461,11 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/fi/academy/Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="8" column="55" lean-forward="false" selection-start-line="8" selection-start-column="55" selection-end-line="8" selection-end-column="55" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#235#236#0" expanded="true" />
-            <element signature="e#297#298#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/0737d691-45af-4965-be3c-0c5a955585e2/console.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/fi/academy/Sanonta.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="10" column="48" lean-forward="false" selection-start-line="10" selection-start-column="48" selection-end-line="10" selection-end-column="48" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#381#382#0" expanded="true" />
-            <element signature="e#406#407#0" expanded="true" />
-            <element signature="e#439#440#0" expanded="true" />
-            <element signature="e#467#468#0" expanded="true" />
-            <element signature="e#498#499#0" expanded="true" />
-            <element signature="e#525#526#0" expanded="true" />
-            <element signature="e#565#566#0" expanded="true" />
-            <element signature="e#597#598#0" expanded="true" />
-            <element signature="e#629#630#0" expanded="true" />
-            <element signature="e#657#658#0" expanded="true" />
-            <element signature="e#699#700#0" expanded="true" />
-            <element signature="e#733#734#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -512,14 +487,48 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/fi/academy/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="8" column="55" lean-forward="false" selection-start-line="8" selection-start-column="55" selection-end-line="8" selection-end-column="55" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#235#236#0" expanded="true" />
+            <element signature="e#297#298#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/fi/academy/Kontrolleri.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
+        <state relative-caret-position="-115">
           <caret line="23" column="30" lean-forward="false" selection-start-line="23" selection-start-column="30" selection-end-line="23" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1284#1285#0" expanded="true" />
             <element signature="e#1334#1335#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/fi/academy/Sanonta.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="10" column="48" lean-forward="false" selection-start-line="10" selection-start-column="48" selection-end-line="10" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#381#382#0" expanded="true" />
+            <element signature="e#406#407#0" expanded="true" />
+            <element signature="e#439#440#0" expanded="true" />
+            <element signature="e#467#468#0" expanded="true" />
+            <element signature="e#498#499#0" expanded="true" />
+            <element signature="e#525#526#0" expanded="true" />
+            <element signature="e#565#566#0" expanded="true" />
+            <element signature="e#597#598#0" expanded="true" />
+            <element signature="e#629#630#0" expanded="true" />
+            <element signature="e#657#658#0" expanded="true" />
+            <element signature="e#699#700#0" expanded="true" />
+            <element signature="e#733#734#0" expanded="true" />
           </folding>
         </state>
       </provider>

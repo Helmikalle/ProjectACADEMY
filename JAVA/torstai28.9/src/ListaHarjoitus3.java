@@ -1,7 +1,4 @@
-import java.util.*;
-
 class Henkilo {
-    //private List<Henkilo> lista;
     private String etunimi;
     private String sukunimi;
     private int ika;
@@ -11,9 +8,7 @@ class Henkilo {
         this.sukunimi = sukunimi;
         this.ika = ika;
     }
-    public Henkilo(){
-        this("","",0);
-    }
+
 
     public String getEtunimi() {
         return etunimi;
