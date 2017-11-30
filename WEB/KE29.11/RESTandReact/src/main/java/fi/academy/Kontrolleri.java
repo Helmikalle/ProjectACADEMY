@@ -1,10 +1,12 @@
 package fi.academy;
 
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.*;
+import org.springframework.web.util.UriComponentsBuilder;
+
+import java.net.URI;
+import java.net.URISyntaxException;
 
 @RestController
 @RequestMapping("/api")
@@ -12,9 +14,23 @@ public class Kontrolleri {
     @Autowired
     SanontaRepository sanontaRepository;
 
-    @GetMapping ("/add")
-    public String addNewQuote (@RequestParam String nimi
-            , @RequestParam String virsi) {
+    @PostMapping("/all")
+    public ResponseEntity luosanonta(@RequestBody Sanonta sanonta) throws URISyntaxException {
+        sanontaRepository.save(sanonta);
+        URI location = UriComponentsBuilder.newInstance()
+                .scheme("http")
+                .host("localhost")
+                .port(8080)
+                .path("api/all/{id}")
+                .buildAndExpand(sanonta.getId())
+                .toUri();
+        return ResponseEntity.created(location).build();
+    }
+
+
+    @RequestMapping ("/add")
+    public String addNewQuote (@RequestParam(name="%") String nimi
+            , @RequestParam(name="%") String virsi) {
         Sanonta n = new Sanonta();
         n.setNimi(nimi);
         n.setVirsi(virsi);

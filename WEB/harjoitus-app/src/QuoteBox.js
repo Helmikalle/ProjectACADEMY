@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import QuoteList from './QuoteList';
 import QuoteForm from './QuoteForm';
-import serviceclient from './serviceclient';
+import {haekaikki,luoquote} from "./serviceclient";
 
 // let data1 =
 //     [
@@ -46,12 +46,27 @@ class QuoteBox extends Component {
 
     constructor(props) {
         super(props);
-        this.state = {data: data1, lastid: data1.length + 10};
+        this.state = {data: []};
     }
+    componentDidMount = () => {
+        this.fetchall
+    }
+
+    fetchall = () => {
+        haekaikki(this.kaikkihaettu)
+    }
+    kaikkihaettu = (sanonnat, virhe) => {
+        if (virhe){
+            // tee jotain virheelle
+        }
+        this.setState({data:sanonnat})
+    }
+
     handleQuoteAdded = (nq) => {
-        nq.id = this.state.lastid++;
-        this.state.data.push(nq);
-        this.setState(this.state);
+        luoquote(nq,this.luotu)
+    }
+    luotu = () => {
+        this.fetchall()
     }
     render() {
         return (

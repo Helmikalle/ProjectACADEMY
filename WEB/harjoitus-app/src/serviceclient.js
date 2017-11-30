@@ -1,11 +1,24 @@
-import React, {Component} from 'react';
 
+const palveluurl = 'api/'; // kun proxy asetettu
+export function haekaikki(callback) {
+fetch (palveluurl + 'all', {accept: 'application/json'})
+    .then(function(response) {
+        response.json().then(function(json) {
+            if (response.status >= 500)
+                callback(json, response.status);
+            else
+                callback(json);
+        });
+    });
+}
 
-const palveluurl = '/api'; // kun proxy asetettu
-export function haekaikki(sanonta, callback) {
-    fetch(palveluurl + '/all', {accept: 'application/json'})
-        .then((function (response) {
-
+export function luoquote(quote, callback) {
+    fetch(palveluurl + 'all/',  {
+        method: 'POST',
+        headers: {'Content-Type': 'application/json' },
+        body: JSON.stringify(quote)
+    })
+        .then((function(response) {
             callback();
         }));
-} // tätä voi käyttää pohjana
+}
