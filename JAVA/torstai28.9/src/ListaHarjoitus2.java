@@ -1,8 +1,6 @@
-import java.util.ArrayList;
-import java.util.List;
-    public class ListaHarjoitus2 {
+public class ListaHarjoitus2 {
         public static String[] nimet = {"Tara", "Catarina", "Riku",
-                "Tessa", "Suri", "Sandra", "Robin"};
+                "Tessa", "Suri", "Sandra", "Robin"};//näitä ei käytetä enää. annetaan olla jos tekee mieli testata jotain. Luettelo luokasta löytää "toteutusta".
         public static void main(String[] args) {
             // Uusi luettelo
             Luettelo luettelo = new Luettelo();

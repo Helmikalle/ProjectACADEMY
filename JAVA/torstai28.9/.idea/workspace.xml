@@ -2,20 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b581c6d1-dc83-4a19-91cb-bec091721b78" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/torstai28.9/ListaHarjoitus3Main.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/torstai28.9/Luettelo2.class" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Tiedostonlukija/out/production/Tiedostonlukija/Kirjoituskone.class" afterPath="$PROJECT_DIR$/../Tiedostonlukija/out/production/Tiedostonlukija/Kirjoituskone.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/torstai28.9/Henkilo.class" afterPath="$PROJECT_DIR$/out/production/torstai28.9/Henkilo.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/torstai28.9/ListaHarjoitus1.class" afterPath="$PROJECT_DIR$/out/production/torstai28.9/ListaHarjoitus1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/torstai28.9/Luettelo.class" afterPath="$PROJECT_DIR$/out/production/torstai28.9/Luettelo.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Tiedostonlukija/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../Tiedostonlukija/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ListaHarjoitus1.java" afterPath="$PROJECT_DIR$/src/ListaHarjoitus1.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ListaHarjoitus3.java" afterPath="$PROJECT_DIR$/src/ListaHarjoitus3.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Luettelo.java" afterPath="$PROJECT_DIR$/src/Luettelo.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WEB/KE29.11/RESTandReact/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../../WEB/KE29.11/RESTandReact/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WEB/harjoitus-app/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../../WEB/harjoitus-app/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ListaHarjoitus2.java" afterPath="$PROJECT_DIR$/src/ListaHarjoitus2.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -33,22 +24,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="ListaHarjoitus2.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ListaHarjoitus2.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/ListaHarjoitus2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="8" column="47" lean-forward="true" selection-start-line="8" selection-start-column="47" selection-end-line="8" selection-end-column="47" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="42">
+              <caret line="2" column="161" lean-forward="false" selection-start-line="2" selection-start-column="161" selection-end-line="2" selection-end-column="161" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Luettelo.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Luettelo.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Luettelo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="63">
+            <state relative-caret-position="630">
               <caret line="34" column="5" lean-forward="true" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -99,12 +88,12 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/ListaHarjoitus2.java" />
         <option value="$PROJECT_DIR$/src/Luettelo2.java" />
         <option value="$PROJECT_DIR$/src/ListaHarjoitus3Main.java" />
         <option value="$PROJECT_DIR$/src/ListaHarjoitus3.java" />
         <option value="$PROJECT_DIR$/src/ListaHarjoitus1.java" />
         <option value="$PROJECT_DIR$/src/Luettelo.java" />
+        <option value="$PROJECT_DIR$/src/ListaHarjoitus2.java" />
       </list>
     </option>
   </component>
@@ -620,12 +609,20 @@
       <option name="presentableId" value="Default" />
       <updated>1506581987218</updated>
       <workItem from="1506581990241" duration="15254000" />
-      <workItem from="1512042345416" duration="4582000" />
+      <workItem from="1512042345416" duration="4799000" />
     </task>
+    <task id="LOCAL-00001" summary="ILTAPÄIVÄ PUSHIA. vanhoja tutkimassa">
+      <created>1512047087880</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1512047087880</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19836000" />
+    <option name="totallyTimeSpent" value="20053000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="0" width="1932" height="1038" extended-state="0" />
@@ -668,6 +665,10 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="ILTAPÄIVÄ PUSHIA. vanhoja tutkimassa" />
+    <option name="LAST_COMMIT_MESSAGE" value="ILTAPÄIVÄ PUSHIA. vanhoja tutkimassa" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints-dialog>
@@ -696,9 +697,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -764,16 +763,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ListaHarjoitus2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="8" column="47" lean-forward="true" selection-start-line="8" selection-start-column="47" selection-end-line="8" selection-end-column="47" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ListaHarjoitus1.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="231">
@@ -786,11 +775,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Luettelo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
+        <state relative-caret-position="630">
           <caret line="34" column="5" lean-forward="true" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ListaHarjoitus2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" column="161" lean-forward="false" selection-start-line="2" selection-start-column="161" selection-end-line="2" selection-end-column="161" />
+          <folding />
         </state>
       </provider>
     </entry>
