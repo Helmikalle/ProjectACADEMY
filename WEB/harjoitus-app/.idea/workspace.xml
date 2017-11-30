@@ -2,13 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0fc358e4-e005-4ab6-a5da-f3a6c4f199cb" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../JAVA/Tiedostonlukija/out/production/Tiedostonlukija/Kirjoituskone.class" afterPath="$PROJECT_DIR$/../../JAVA/Tiedostonlukija/out/production/Tiedostonlukija/Kirjoituskone.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../JAVA/Tiedostonlukija/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../../JAVA/Tiedostonlukija/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../JAVA/Tiedostonlukija/moi.txt" afterPath="$PROJECT_DIR$/../../JAVA/Tiedostonlukija/moi.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../JAVA/Tiedostonlukija/src/Kirjoituskone.java" afterPath="$PROJECT_DIR$/../../JAVA/Tiedostonlukija/src/Kirjoituskone.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../JAVA/Tiedostonlukija/src/Sanalaskuri.java" afterPath="$PROJECT_DIR$/../../JAVA/Tiedostonlukija/src/Sanalaskuri.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../JAVA/Tiedostonlukija/src/Tiedostonlukija.java" afterPath="$PROJECT_DIR$/../../JAVA/Tiedostonlukija/src/Tiedostonlukija.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../KE29.11/RESTandReact/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../KE29.11/RESTandReact/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
