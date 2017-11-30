@@ -20,8 +20,8 @@ public class Tiedostonlukija {
         String tulos = null;
         try {
             FileReader lukija = new FileReader(nimi); //Avaa tiedoston
-            BufferedReader in = new BufferedReader(lukija); // Pistää tavaraa jonoon ja lukee
-            tulos = in.readLine();//Tulostaa
+            BufferedReader in = new BufferedReader(lukija); // Pistää tavaraa jonoon
+            tulos = in.readLine();//lukee
             in.close();//sulkee BufferedReaderin
             lukija.close(); //sulkee FileReaderin
         } catch (IOException ex) {
