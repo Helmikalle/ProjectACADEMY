@@ -11,12 +11,12 @@ public class Kirjoituskone {
         try {
             System.out.println(tiedosto.getCanonicalPath());
             for (; ; ) {
-                if ("0".equals(tekstia)) {
+                if ("0".equals(tekstia)) { //aika loppu kesken mutta voi antaa koodia kunnes syöttää nollan
                     break;
                 } else {
                     tekstia = in.readLine();
                     writer = new BufferedWriter(new FileWriter(tiedosto, true));
-                    writer.write(tekstia);
+                    writer.write(tekstia + " ");
                     writer.close();
                 }
             }

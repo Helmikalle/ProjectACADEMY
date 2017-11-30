@@ -10,7 +10,7 @@ public class Sanalaskuri {
             tiedostonnimi = args [0];
         }else{
             System.out.println("Oletus");
-            tiedostonnimi = "moi.txt";
+            tiedostonnimi = "";
         }
         Sanalaskuri laskuri = new Sanalaskuri();//pääsee käsiksi non static
         laskuri.kasitteleTiedosto(tiedostonnimi);//samaa asiaa
