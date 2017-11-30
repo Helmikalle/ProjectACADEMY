@@ -2,11 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0aaff4ab-ef70-4b9c-9a24-e2592c919670" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../../JAVA/haRJOITUS 2/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../../JAVA/harjoitus1/.idea/vcs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../JAVA/haRJOITUS 2/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../../../JAVA/haRJOITUS 2/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../../JAVA/Harjoitus3/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../JAVA/harjoitus1/out/production/harjoitus1/Kertoma.class" afterPath="$PROJECT_DIR$/../../../JAVA/harjoitus1/out/production/harjoitus1/Kertoma.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../JAVA/Harjoitus3/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../../../JAVA/Harjoitus3/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../JAVA/Tiedostonlukija/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../../../JAVA/Tiedostonlukija/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../JAVA/Tiedostonlukija/src/Sanalaskuri.java" afterPath="$PROJECT_DIR$/../../../JAVA/Tiedostonlukija/src/Sanalaskuri.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../JAVA/Tiedostonlukija/src/Tiedostonlukija.java" afterPath="$PROJECT_DIR$/../../../JAVA/Tiedostonlukija/src/Tiedostonlukija.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../JAVA/harjoitus1/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../../../JAVA/harjoitus1/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../JAVA/harjoitus1/src/Kertoma.java" afterPath="$PROJECT_DIR$/../../../JAVA/harjoitus1/src/Kertoma.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../JAVA/kertoma/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../../../JAVA/kertoma/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../harjoitus-app/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../../harjoitus-app/.idea/workspace.xml" />
     </list>
@@ -156,10 +159,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="323" />
-    <option name="y" value="37" />
-    <option name="width" value="1400" />
-    <option name="height" value="990" />
+    <option name="x" value="-9" />
+    <option name="y" value="-9" />
+    <option name="width" value="1932" />
+    <option name="height" value="1048" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">

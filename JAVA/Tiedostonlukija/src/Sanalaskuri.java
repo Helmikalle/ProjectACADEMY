@@ -1,6 +1,3 @@
-import sun.java2d.pipe.BufferedRenderPipe;
-
-import java.awt.image.BufferedImage;
 import java.io.BufferedReader;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
@@ -13,7 +10,7 @@ public class Sanalaskuri {
             tiedostonnimi = args [0];
         }else{
             System.out.println("Oletus");
-            tiedostonnimi = "";
+            tiedostonnimi = "moi.txt";
         }
         Sanalaskuri laskuri = new Sanalaskuri();//pääsee käsiksi non static
         laskuri.kasitteleTiedosto(tiedostonnimi);//samaa asiaa
@@ -22,13 +19,14 @@ public class Sanalaskuri {
 
     private void kasitteleTiedosto(String nimi) {
     int sanat=0, merkit=0, rivit=0;
+    String rivi;
         try {
             BufferedReader lukija=new BufferedReader(new FileReader(nimi));
-            for(String rivi = lukija.readLine() ; rivi !=null; rivi = lukija.readLine());
+            for(rivi = lukija.readLine() ; rivi !=null; rivi = lukija.readLine());
             rivit++;
-            merkit += rivi.lenght();
-            String [] sanatrivilla = rivi.spilt
-            int sanoja = rivi.split();
+            merkit += rivi.length();
+            String [] sanatrivilla = rivi.split(" ");
+
 
         } catch (FileNotFoundException e) {
             e.printStackTrace();
