@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0aaff4ab-ef70-4b9c-9a24-e2592c919670" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../JAVA/torstai28.9/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../../../JAVA/torstai28.9/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../TO30.11/RESTjaREACTkokeilu/src/main/resources/templates/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../TO30.11/RESTjaREACTkokeilu/src/main/java/fi/academy/HomeController.java" afterPath="$PROJECT_DIR$/../../TO30.11/RESTjaREACTkokeilu/src/main/java/fi/academy/HomeController.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../harjoitus-app/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../../harjoitus-app/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
