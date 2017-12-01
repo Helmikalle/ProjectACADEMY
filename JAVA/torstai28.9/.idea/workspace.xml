@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b581c6d1-dc83-4a19-91cb-bec091721b78" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WEB/KE29.11/RESTandReact/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../../WEB/KE29.11/RESTandReact/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WEB/harjoitus-app/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../../WEB/harjoitus-app/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="b581c6d1-dc83-4a19-91cb-bec091721b78" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -101,7 +97,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
     <option name="width" value="1932" />
     <option name="height" value="1038" />
@@ -154,7 +150,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="js.eslint.eslintPackage" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Ti.3.10/src" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../WEB/TO30.11/Spring.io tutorial" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -608,7 +604,7 @@
       <updated>1506581987218</updated>
       <workItem from="1506581990241" duration="15254000" />
       <workItem from="1512042345416" duration="6417000" />
-      <workItem from="1512128916285" duration="1162000" />
+      <workItem from="1512128916285" duration="1815000" />
     </task>
     <task id="LOCAL-00001" summary="ILTAPÄIVÄ PUSHIA. vanhoja tutkimassa">
       <created>1512047087880</created>
@@ -624,14 +620,21 @@
       <option name="project" value="LOCAL" />
       <updated>1512047279281</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="ILTA PUSHIA. vanhoja tutkimassa">
+      <created>1512157567626</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1512157567626</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22833000" />
+    <option name="totallyTimeSpent" value="23486000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="0" width="1932" height="1038" extended-state="0" />
+    <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -646,7 +649,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25646552" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2556391" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -673,7 +676,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="ILTAPÄIVÄ PUSHIA. vanhoja tutkimassa" />
-    <option name="LAST_COMMIT_MESSAGE" value="ILTAPÄIVÄ PUSHIA. vanhoja tutkimassa" />
+    <MESSAGE value="ILTA PUSHIA. vanhoja tutkimassa" />
+    <option name="LAST_COMMIT_MESSAGE" value="ILTA PUSHIA. vanhoja tutkimassa" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
